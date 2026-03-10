@@ -1,0 +1,62 @@
+/*GÉNÉRIQUE*/
+
+html{
+box-sizing: border-box;
+}
+*,
+*::before
+*::after{
+box-sizing: inherit;
+}
+
+/*BASE*/
+
+body{
+
+font: normal 400 1.125rem/160% "Roboto", sans-serif ;
+
+background-color: #fff;
+color: #000;
+
+position: relative;
+}
+
+/*MISE EN PAGE*/
+
+.wrapper{
+
+max-width: 1440px ;
+margin: 0 auto;
+
+}
+
+/*ÉLÉMENT/TYPO*/
+
+li{
+
+list-style-type: none;
+
+}
+
+a{
+text-decoration: none;
+list-style-type: none;
+}
+
+a:visited,
+a:active {
+  color: inherit;
+}
+
+a:hover{
+
+color: #D300B7 ;
+
+}
+
+header{
+
+
+
+
+}
