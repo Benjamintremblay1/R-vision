@@ -264,3 +264,42 @@ gap:40px; /* ✅ espace plus grand */
     font-size: 1.125rem;
     font-weight: 500;
 }
+
+/*MODALE*/
+
+.hidden {
+  display: none !important;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 2000;
+}
+
+.modal-content {
+  background: white;
+  width: 90%;
+  max-width: 500px;
+  height: 300px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.modal-content p {
+  color: black;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
